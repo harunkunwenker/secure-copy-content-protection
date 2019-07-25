@@ -1,7 +1,5 @@
 # secure-copy-content-protection
 
-<img src="https://waifu2x.booru.pics/outfiles/a22ed66aa7781bfa0fad4d6f45e602c0a4c21c05_s2_n2.jpg" alt="Copy Protection">
-
 @We are a team with modern ideas and challenging places for web developers, web designers, work support specialists. I made my first contribution to the programming world in 2014. We know that there many ways to make virtual life interesting, but we will help you make it unforgettable, bright and wonderful so you can convey your experience to your customers, visitors and users.
 
 [Tolong dicatat!]
