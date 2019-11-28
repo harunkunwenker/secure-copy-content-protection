@@ -1,27 +1,54 @@
-        (function ($) {
+<script>
+(function ($) {
             'use strict';
             $(document).ready(function () {
                 let all = $('*').not('script, meta, link, style, noscript, title'),
                     tooltip = $('#ays_tooltip'),
-                    tooltipClass = "mouse";
+                    tooltipClass = "mouse",
+                    scWidth = window.screen.width;
                 if (tooltipClass == "mouse") {
-		                                all.on('mousemove', function (e) {
-                        let cordinate_x = e.pageX;
-                        let cordinate_y = e.pageY;
-                        let windowWidth = $(window).width();
-                        if (cordinate_y < tooltip.outerHeight()) {
-                            tooltip.css({'top': (cordinate_y + 10) + 'px'});
-                        } else {
-                            tooltip.css({'top': (cordinate_y - tooltip.outerHeight()) + 'px'});
-                        }
-                        if (cordinate_x > (windowWidth - tooltip.outerWidth())) {
-                            tooltip.css({'left': (cordinate_x - tooltip.outerWidth()) + 'px'});
-                        } else {
-                            tooltip.css({'left': (cordinate_x + 5) + 'px'});
-                        }
-
-                    });
-		                            } else {
+                    if (scWidth > 1024) {
+                        all.on('mousemove', function (e) {
+                            let cordinate_x = e.pageX;
+                            let cordinate_y = e.pageY;
+                            let windowWidth = $(window).width();
+                            if (cordinate_y < tooltip.outerHeight()) {
+                                tooltip.css({'top': (cordinate_y + 10) + 'px'});
+                            } else {
+                                tooltip.css({'top': (cordinate_y - tooltip.outerHeight()) + 'px'});
+                            }
+                            if (cordinate_x > (windowWidth - tooltip.outerWidth())) {
+                                tooltip.css({'left': (cordinate_x - tooltip.outerWidth()) + 'px'});
+                            } else {
+                                tooltip.css({'left': (cordinate_x + 5) + 'px'});
+                            }
+                        });
+                    } else {
+                        let startTime, endTime;
+                        all.on('touchstart', function (e) {
+                            startTime = new Date().getTime();
+                        });
+                        all.on('touchend', function (e) {
+                            endTime = new Date().getTime();
+                            if ((endTime - startTime) / 1000 > 1) {
+                                e.preventDefault();
+                                let cordinate_x = e.pageX;
+                                let cordinate_y = e.pageY;
+                                let windowWidth = $(window).width();
+                                if (cordinate_y < tooltip.outerHeight()) {
+                                    tooltip.css({'top': (cordinate_y + tooltip.outerHeight() - 10) + 'px'});
+                                } else {
+                                    tooltip.css({'top': (cordinate_y - tooltip.outerHeight()) + 'px'});
+                                }
+                                if (cordinate_x > (windowWidth - tooltip.outerWidth())) {
+                                    tooltip.css({'left': (cordinate_x - tooltip.outerWidth()) + 'px'});
+                                } else {
+                                    tooltip.css({'left': (cordinate_x + 5) + 'px'});
+                                }
+                            }
+                        });
+                    }
+                } else {
                     tooltip.addClass(tooltipClass);
                 }
 				                $(document).on('keyup', function (e) {
@@ -34,31 +61,24 @@
                     return false;
                 });
 				
-
 				                $(document).on('contextmenu', function (e) {
                     let t = e || window.event;
                     let n = t.target || t.srcElement;
                     if (n.nodeName !== "A") {
-                        show_tooltip( );
+                        show_tooltip(1 );
                         audio_play(1);
                     }
                     return false;
                 });
-	            
-	                            all.on('touchstart', function (event) {
-                    let target = $(event.target);
-                    if (target.is("img")) {
-                        show_tooltip( );
-                        audio_play();
-                        event.preventDefault();
-                        event.stopPropagation();
-                        event.stopImmediatePropagation();
-                        return false;
-                    }
+                all.on('taphold', function (e) {
+                    e.preventDefault();
+                    show_tooltip(1 );
+                    audio_play(1);
+                    return false;
                 });
 				
 				                $(document).on('dragstart', function () {
-                    show_tooltip(1 );
+                    show_tooltip( );
                     audio_play();
                     return false;
                 });
@@ -66,15 +86,10 @@
 				
                 $(window).on('keydown', function (event) {
                     var isOpera = (BrowserDetect.browser === "Opera");
-
                     var isFirefox = (BrowserDetect.browser === 'Firefox');
-
                     var isSafari = (BrowserDetect.browser === 'Safari');
-
                     var isIE = (BrowserDetect.browser === 'Explorer');
-
                     var isChrome = (BrowserDetect.browser === 'Chrome');
-
                     if (BrowserDetect.OS === 'Windows') {
 						                        if (isChrome) {
                             if (((event.ctrlKey && event.shiftKey) && (
@@ -312,7 +327,6 @@
                         }
 						                    }
                 });
-
                 function disableSelection(e) {
                     if (typeof e.onselectstart !== "undefined")
                         e.onselectstart = function () {
@@ -329,16 +343,14 @@
                         };
                     e.style.cursor = "default"
                 }
-
                 function show_tooltip(mess) {
                     if (mess) {
-                        tooltip.css({'display': 'table'});
+                        $('#ays_tooltip').css({'display': 'table'});
                         setTimeout(function () {
                             $('#ays_tooltip').fadeOut(500);
                         }, 1000);
                     }
                 }
-
                 function audio_play(audio) {
                     if (audio) {
                         var audio = document.getElementById("sccp_public_audio");
@@ -346,14 +358,10 @@
                             audio.currentTime = 0;
                             audio.play();
                         }
-
                     }
                 }
-
-
             });
         })(jQuery);
-
         var BrowserDetect = {
             init: function () {
                 this.browser = this.searchString(this.dataBrowser) || "An unknown browser";
@@ -448,3 +456,4 @@
             }]
         };
         BrowserDetect.init();
+</script>
