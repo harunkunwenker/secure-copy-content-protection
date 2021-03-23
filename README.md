@@ -28,7 +28,7 @@ You can see the demo in here: [![DEMO](https://rawcdn.githack.com/harunkunwenker
 
 # [Contact Me]
 
-+ Email: harunprasetyo33@gmail.com + Mobile/WA: [![+1 (415) 649-2554](https://wa.me/+14156492554)](https://wa.me/14156492554)
++ Email: harunprasetyo33@gmail.com. + Mobile/WA: [![+1 (415) 649-2554](https://wa.me/+14156492554)](https://wa.me/14156492554)
   
 `Copyright © 2019 harunkunwenker. All rights reserved. #Proudly Made in W3.CSS. #From: Pacitan, East Java, Indonesia.`
 
