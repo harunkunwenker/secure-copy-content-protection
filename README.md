@@ -13,7 +13,7 @@
 </div>
 
 + Versi Indonesia: Tolong jangan mengubah kode sumber yang disediakan, karena kode ini sangat susah dibuatnya. "Penting!" gunakan kode ini dengan sangat bijak. Terimakasih...
-Anda dapat melihat demo nya di sini: [![DEMO](https://rawcdn.githack.com/harunkunwenker/secure-copy-content-protection/62900cb81795b29a83433e63f94183455e3a3ebb/index.html)](https://rawcdn.githack.com/harunkunwenker/secure-copy-content-protection/62900cb81795b29a83433e63f94183455e3a3ebb/index.html)
+Anda dapat melihat demo nya di sini: [![DEMO](https://rawcdn.githack.com/harunkunwenker/secure-copy-content-protection/62900cb81795b29a83433e63f94183455e3a3ebb/index.html)](https://raw.githack.com/harunkunwenker/secure-copy-content-protection/public/index.html)
 
 <div align="center">
   
@@ -22,7 +22,7 @@ Anda dapat melihat demo nya di sini: [![DEMO](https://rawcdn.githack.com/harunku
 </div>
 
 + English Version: Please do not change the source code provided, because this code is very difficult to make. "Important!" use this code very wisely. Thank you...
-You can see the demo in here: [![DEMO](https://rawcdn.githack.com/harunkunwenker/secure-copy-content-protection/62900cb81795b29a83433e63f94183455e3a3ebb/index.html)](https://rawcdn.githack.com/harunkunwenker/secure-copy-content-protection/62900cb81795b29a83433e63f94183455e3a3ebb/index.html)
+You can see the demo in here: [![DEMO](https://rawcdn.githack.com/harunkunwenker/secure-copy-content-protection/62900cb81795b29a83433e63f94183455e3a3ebb/index.html)](https://raw.githack.com/harunkunwenker/secure-copy-content-protection/public/index.html)
 
 <div align="center">
 
