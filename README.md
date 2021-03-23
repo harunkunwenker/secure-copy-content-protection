@@ -26,7 +26,10 @@ You can see the demo in here: [![DEMO](https://rawcdn.githack.com/harunkunwenker
 
 <div align="center">
   
-+ Copyright © 2019 harunkunwenker. All rights reserved. #Proudly Made in W3.CSS. #From: Pacitan, East Java, Indonesia.
+`Copyright © 2019 harunkunwenker. All rights reserved. #Proudly Made in W3.CSS. #From: Pacitan, East Java, Indonesia.`
+
+# [Contact Me]
+
 + Email: harunprasetyo33@gmail.com + Mobile/WA: [![+1 (415) 649-2554](https://wa.me/+14156492554)](https://wa.me/14156492554)
 
 </div>
