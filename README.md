@@ -30,7 +30,8 @@ You can see the demo in here: [![DEMO](https://rawcdn.githack.com/harunkunwenker
 
 + Email: harunprasetyo33@gmail.com
 
-<i class="fab fa-whatsapp" aria-hidden="true"></i> Whatsapp: [![+1 (415) 649-2554](https://wa.me/+14156492554)](https://wa.me/14156492554)
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" >
+<i  class="fab fa-whatsapp"></i> Whatsapp: [![+1 (415) 649-2554](https://wa.me/+14156492554)](https://wa.me/14156492554)
   
 `Copyright © 2019 harunkunwenker. All rights reserved. #Proudly Made in W3.CSS. #From: Pacitan, East Java, Indonesia.`
 
