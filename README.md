@@ -28,9 +28,8 @@ You can see the demo in here: [![DEMO](https://rawcdn.githack.com/harunkunwenker
 
 # [Contact Me]
 
-+ Email: harunprasetyo33@gmail.com
-
-<i  class="fab fa-whatsapp"></i> Whatsapp: [![+1 (415) 649-2554](https://user-images.githubusercontent.com/34729296/34238334-b5a35a20-e5c6-11e7-9963-79c6308f9769.png)](https://wa.me/14156492554)
++ 📧 Email: harunprasetyo33@gmail.com
++ 🗨 Whatsapp: [![+1 (415) 649-2554](https://wa.me/14156492554)](https://wa.me/14156492554)
   
 `Copyright © 2019 harunkunwenker. All rights reserved. #Proudly Made in W3.CSS. #From: Pacitan, East Java, Indonesia.`
 
