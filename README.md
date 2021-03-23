@@ -1,6 +1,6 @@
-
+<div align="center">
 # secure-copy-content-protection
-
+</div>
 @We are a team with modern ideas and challenging places for web developers, web designers, work support specialists. I made my first contribution to the programming world in 2014. We know that there many ways to make virtual life interesting, but we will help you make it unforgettable, bright and wonderful so you can convey your experience to your customers, visitors and users.
 
 # [Tolong dicatat!]
