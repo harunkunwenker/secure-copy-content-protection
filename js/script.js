@@ -1,4 +1,3 @@
-<script>
 (function ($) {
             'use strict';
             $(document).ready(function () {
@@ -456,4 +455,3 @@
             }]
         };
         BrowserDetect.init();
-</script>
