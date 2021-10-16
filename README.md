@@ -28,8 +28,7 @@ You can see the demo in here: [![DEMO](![image](./uploads/2021/04/XM_disableRigh
 
 # [Contact Me]
 
-📧 Email: harunprasetyo33@gmail.com
-🗨 Whatsapp: [![+380 94 448 6343](https://wa.me/380944486343)](https://wa.me/380944486343)
+[![image](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/380944486343)
   
 `Copyright © 2019 harunkunwenker. All rights reserved. #Proudly Made in W3.CSS. #From: Pacitan, East Java, Indonesia.`
 
