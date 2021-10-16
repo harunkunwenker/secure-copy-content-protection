@@ -13,7 +13,7 @@
 </div>
 
 + Versi Indonesia: Tolong jangan mengubah kode sumber yang disediakan, karena kode ini sangat susah dibuatnya. "Penting!" gunakan kode ini dengan sangat bijak. Terimakasih...
-Anda dapat melihat demo nya di sini: [![DEMO](![image](./uploads/2021/04/XM_disableRightClickImage.png)](https://raw.githack.com/harunkunwenker/secure-copy-content-protection/public/index.html)
+Anda dapat melihat demo nya di sini: [![DEMO](![image](./uploads/2021/04/XM_disableRightClickImage.webp)](https://raw.githack.com/harunkunwenker/secure-copy-content-protection/public/index.html)
 
 <div align="center">
   
@@ -22,14 +22,14 @@ Anda dapat melihat demo nya di sini: [![DEMO](![image](./uploads/2021/04/XM_disa
 </div>
 
 + English Version: Please do not change the source code provided, because this code is very difficult to make. "Important!" use this code very wisely. Thank you...
-You can see the demo in here: [![DEMO](![image](./uploads/2021/04/XM_disableRightClickImage.png)](https://raw.githack.com/harunkunwenker/secure-copy-content-protection/public/index.html)
+You can see the demo in here: [![DEMO](![image](./uploads/2021/04/XM_disableRightClickImage.webp)](https://raw.githack.com/harunkunwenker/secure-copy-content-protection/public/index.html)
 
 <div align="center">
 
 # [Contact Me]
 
 📧 Email: harunprasetyo33@gmail.com
-🗨 Whatsapp: [![+1 (415) 649-2554](https://wa.me/14156492554)](https://wa.me/14156492554)
+🗨 Whatsapp: [![+380 94 448 6343](https://wa.me/380944486343)](https://wa.me/380944486343)
   
 `Copyright © 2019 harunkunwenker. All rights reserved. #Proudly Made in W3.CSS. #From: Pacitan, East Java, Indonesia.`
 
