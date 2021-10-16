@@ -13,7 +13,7 @@
 </div>
 
 + Versi Indonesia: Tolong jangan mengubah kode sumber yang disediakan, karena kode ini sangat susah dibuatnya. "Penting!" gunakan kode ini dengan sangat bijak. Terimakasih...
-Anda dapat melihat demo nya di sini: [![DEMO](https://rawcdn.githack.com/harunkunwenker/secure-copy-content-protection/public/index.html)](https://raw.githack.com/harunkunwenker/secure-copy-content-protection/public/index.html)
+Anda dapat melihat demo nya di sini: [![DEMO](![image](https://user-images.githubusercontent.com/38748942/137592597-5e5d3804-f23a-4e5d-880e-0fbdbb5817f0.png))](https://raw.githack.com/harunkunwenker/secure-copy-content-protection/public/index.html)
 
 <div align="center">
   
